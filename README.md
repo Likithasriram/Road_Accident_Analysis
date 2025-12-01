@@ -1,7 +1,11 @@
 # 🚗 Road Accident Analysis (2021–2022)
 
 ## Data Analytics Project  
-Python | SQL | Power BI | Excel | EDA | Data Visualization
+<p align="center">
+  Python • SQL • Power BI • Excel • EDA • Data Visualization
+</p>
+
+
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3.10-blue" />
@@ -11,6 +15,18 @@ Python | SQL | Power BI | Excel | EDA | Data Visualization
   <img src="https://img.shields.io/badge/Pandas-EDA-green" />
   <img src="https://img.shields.io/badge/Matplotlib-Visualization-yellow" />
 </p>
+
+## 📑 Table of Contents
+- [Project Overview](#project-overview)
+- [Business Problem](#business-problem)
+- [Key Insights](#key-insights)
+- [Dashboard Preview](#dashboard-preview)
+- [Technical Skills](#technical-skills)
+- [KPI Validation](#kpi-validation)
+- [Recommendations](#recommendations)
+- [Future Enhancements](#future-enhancements)
+- [Project Structure](#project-structure)
+
 
 
 ⭐ **Project Overview**
@@ -176,6 +192,8 @@ Add geospatial heatmaps (GIS mapping)
 Build real-time streaming dashboard
 
 Develop severity prediction models
+
+---
 
 👩‍💼 **About the Author**
 
