@@ -79,15 +79,96 @@ Dashboard creation
 Insight generation & storytelling
 
 📦 **Road Accident Analysis**
-│
+
 ├── 📄 Road_Accident_Analysis_Report.pdf
 ├── 📊 PowerBI_Dashboard.pbix
 ├── 📁 SQL_Validation_Queries.sql
 ├── 📓 Jupyter_Notebook_EDA.ipynb
 └── README.md
 
+
 **Dashboard Preview**
 
 ![Road Analysis Screenshot](https://github.com/user-attachments/assets/1dcfe2f2-1eab-48e0-b2b4-f10a90570ec1)
 Figure: Accident severity, casualties, and monthly trends visualized using Power BI.
+
+🧪** KPI Validation (SQL)**
+
+All KPIs displayed in Power BI — including total accidents, total casualties, severity splits, monthly trends, and percentages — were independently validated using SQL queries.
+
+This ensures that the dashboard metrics are:
+
+Accurate
+
+Consistent
+
+Reliable for decision-making
+
+🚀 🧪 **KPI Validation (SQL)**
+
+All KPIs displayed in Power BI — including total accidents, total casualties, severity splits, monthly trends, and percentages — were independently validated using SQL queries.
+
+This ensures that the dashboard metrics are:
+
+Accurate
+
+Consistent
+
+Reliable for decision-making
+
+🚀 **Business Impact**
+
+This analysis helps authorities and policymakers:
+
+Target road safety interventions more effectively
+
+Prioritize infrastructure upgrades
+
+Improve night-time visibility and lighting
+
+Design campaigns for high-risk vehicle groups
+
+Strengthen emergency response planning
+
+By identifying high-risk factors, this project contributes to reducing accidents and saving lives.
+
+🛣️** Methodology Summary**
+
+Data Cleaning — handled missing values, fixed date/time formats, standardized categories.
+
+EDA (Python) — distributions, correlations, severity analysis, monthly trends.
+
+SQL Validation — re-computed KPIs for accuracy.
+
+Dashboarding (Power BI) — built interactive visuals for deeper insight.
+
+Recommendations — actionable insights for safety improvement.
+
+📌** Recommendations**
+
+Strengthen enforcement and safety programs for two-wheeler riders.
+
+Install better lighting and reflective road markings in night-high-risk areas.
+
+Improve emergency medical access in rural regions.
+
+Upgrade single carriageway roads to safer designs.
+
+Implement seasonal awareness campaigns during peak accident months.
+
+🔮** Future Enhancements**
+
+Predict accident hotspots using machine learning
+
+Add geospatial heatmaps (GIS mapping)
+
+Build real-time streaming dashboard
+
+Develop severity prediction models
+
+👩‍💼 **About the Author**
+
+P. Likhitha
+Data Analyst | SQL | Python | Power BI
+Passionate about turning raw data into meaningful insights.
 
