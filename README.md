@@ -6,7 +6,6 @@
 
 
 
-
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3.10-blue" />
   <img src="https://img.shields.io/badge/SQL-Queries-red" />
