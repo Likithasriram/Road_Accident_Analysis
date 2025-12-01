@@ -39,7 +39,7 @@ Examine environmental factors (weather, lighting, road type)
 
 Build an interactive Power BI dashboard
 
-🧠** Top Insights**
+🧠 **Top Insights**
 
 Two-wheelers contribute the highest casualty share — major vulnerable group.
 
@@ -92,7 +92,7 @@ Insight generation & storytelling
 ![Road Analysis Screenshot](https://github.com/user-attachments/assets/1dcfe2f2-1eab-48e0-b2b4-f10a90570ec1)
 Figure: Accident severity, casualties, and monthly trends visualized using Power BI.
 
-🧪** KPI Validation (SQL)**
+🧪 **KPI Validation (SQL)**
 
 All KPIs displayed in Power BI — including total accidents, total casualties, severity splits, monthly trends, and percentages — were independently validated using SQL queries.
 
@@ -132,7 +132,7 @@ Strengthen emergency response planning
 
 By identifying high-risk factors, this project contributes to reducing accidents and saving lives.
 
-🛣️** Methodology Summary**
+🛣️ **Methodology Summary**
 
 Data Cleaning — handled missing values, fixed date/time formats, standardized categories.
 
@@ -144,7 +144,7 @@ Dashboarding (Power BI) — built interactive visuals for deeper insight.
 
 Recommendations — actionable insights for safety improvement.
 
-📌** Recommendations**
+📌 **Recommendations**
 
 Strengthen enforcement and safety programs for two-wheeler riders.
 
@@ -156,7 +156,7 @@ Upgrade single carriageway roads to safer designs.
 
 Implement seasonal awareness campaigns during peak accident months.
 
-🔮** Future Enhancements**
+🔮**Future Enhancements**
 
 Predict accident hotspots using machine learning
 
