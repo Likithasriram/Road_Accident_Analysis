@@ -34,6 +34,16 @@ This project analyzes road accident data from 2021–2022 to uncover high-risk c
 
 Using Python, SQL, and Power BI, this end-to-end analysis delivers validated KPIs, visual dashboards, and clear business recommendations.
 
+📁**Dataset Information**
+
+The original dataset contains thousands of accident records with details such as severity, casualties, vehicle type, road type, weather, light conditions, and location.
+
+Due to GitHub file size limitations, this repository includes a 900-row sample of the full dataset for demonstration purposes.
+
+The complete dataset was used during analysis, EDA, SQL validation, and Power BI dashboard creation.
+
+The sample uploaded here preserves the structure and key patterns of the original data.
+
 🎯 **Business Problem**
 
 Road accidents cause significant loss of life and economic damage.
