@@ -77,3 +77,17 @@ KPI design
 Dashboard creation
 
 Insight generation & storytelling
+
+📦 **Road Accident Analysis**
+│
+├── 📄 Road_Accident_Analysis_Report.pdf
+├── 📊 PowerBI_Dashboard.pbix
+├── 📁 SQL_Validation_Queries.sql
+├── 📓 Jupyter_Notebook_EDA.ipynb
+└── README.md
+
+**Dashboard Preview**
+
+![Road Analysis Screenshot](https://github.com/user-attachments/assets/1dcfe2f2-1eab-48e0-b2b4-f10a90570ec1)
+Figure: Accident severity, casualties, and monthly trends visualized using Power BI.
+
