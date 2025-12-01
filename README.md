@@ -114,13 +114,16 @@ Dashboard creation
 
 Insight generation & storytelling
 
-📦 **Road Accident Analysis**
+## 📁 Project Structure
+
+
 
 ├── 📄 Road_Accident_Analysis_Report.pdf
 ├── 📊 PowerBI_Dashboard.pbix
 ├── 📁 SQL_Validation_Queries.sql
 ├── 📓 Jupyter_Notebook_EDA.ipynb
 └── README.md
+
 
 
 **Dashboard Preview**
