@@ -1,13 +1,14 @@
 # Road_Accident_Analysis
 🚗 Road Accident Analysis (2021–2022) — Data Analytics Project
 Python | SQL | Power BI | Excel | EDA | Data Visualization
-⭐ Project Overview
+
+⭐ **Project Overview**
 
 This project analyzes road accident data from 2021–2022 to uncover high-risk conditions, accident patterns, and contributing factors. The goal is to provide actionable insights for improving road safety and supporting data-driven decision-making by government authorities and transport planners.
 
 Using Python, SQL, and Power BI, this end-to-end analysis delivers validated KPIs, visual dashboards, and clear business recommendations.
 
-🎯 Business Problem
+🎯 **Business Problem**
 
 Road accidents cause significant loss of life and economic damage.
 Authorities need insights to:
@@ -24,7 +25,7 @@ Implement targeted safety measures
 
 This project provides those insights through an analytical and visual approach.
 
-📊 Key Objectives
+📊 **Key Objectives**
 
 Analyze total accidents and casualties (2021–2022)
 
@@ -38,7 +39,7 @@ Examine environmental factors (weather, lighting, road type)
 
 Build an interactive Power BI dashboard
 
-🧠 Top Insights
+🧠** Top Insights**
 
 Two-wheelers contribute the highest casualty share — major vulnerable group.
 
@@ -50,7 +51,7 @@ Single carriageway roads account for the highest number of casualties.
 
 Noticeable seasonal spikes during monsoon and festive months.
 
-🛠️ Tech Stack
+🛠️ **Tech Stack**
 Languages & Tools
 
 Python (Pandas, NumPy, Matplotlib)
