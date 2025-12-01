@@ -1,6 +1,7 @@
 # Road_Accident_Analysis
 🚗 Road Accident Analysis (2021–2022) — Data Analytics Project
-Python | SQL | Power BI | Excel | EDA | Data Visualization
+Python![Python](https://img.shields.io/badge/Python-3.10-blue)
+ | SQL | Power BI | Excel | EDA | Data Visualization
 
 ⭐ **Project Overview**
 
