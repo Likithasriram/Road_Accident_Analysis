@@ -128,8 +128,8 @@ Insight generation & storytelling
 
 **Dashboard Preview**
 
-![Road Analysis Screenshot](https://github.com/user-attachments/assets/1dcfe2f2-1eab-48e0-b2b4-f10a90570ec1)
-Figure: Accident severity, casualties, and monthly trends visualized using Power BI.
+<img width="1261" height="676" alt="Road Accident Anlysis screenshot" src="https://github.com/user-attachments/assets/1bcd9698-a0be-4eb5-9c8f-2163c7333122" />
+
 
 🧪 **KPI Validation (SQL)**
 
