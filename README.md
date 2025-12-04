@@ -1,40 +1,39 @@
-# 🚗 Road Accident Analysis (2021–2022)
+**🚗Road Accident Analysis (2021–2022)**
+Data Analytics Project
 
-## Data Analytics Project  
+Python • SQL • Power BI • Excel • EDA • Data Visualization
 
-  Python • SQL • Power BI • Excel • EDA • Data Visualization
+<p align="left"> <img src="https://img.shields.io/badge/Python-3.10-blue" /> <img src="https://img.shields.io/badge/SQL-Queries-red" /> <img src="https://img.shields.io/badge/PowerBI-Dashboard-brightgreen" /> <img src="https://img.shields.io/badge/Excel-Data%20Cleaning-lightgrey" /> <img src="https://img.shields.io/badge/Pandas-EDA-green" /> <img src="https://img.shields.io/badge/Matplotlib-Visualization-yellow" /> </p>
 
+**📑 Table of Contents**
 
+Project Overview
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3.10-blue" />
-  <img src="https://img.shields.io/badge/SQL-Queries-red" />
-  <img src="https://img.shields.io/badge/PowerBI-Dashboard-brightgreen" />
-  <img src="https://img.shields.io/badge/Excel-Data%20Cleaning-lightgrey" />
-  <img src="https://img.shields.io/badge/Pandas-EDA-green" />
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-yellow" />
-</p>
+Business Problem
 
-## 📑 Table of Contents
-- [Project Overview](#project-overview)
-- [Business Problem](#business-problem)
-- [Key Insights](#key-insights)
-- [Dashboard Preview](#dashboard-preview)
-- [Technical Skills](#technical-skills)
-- [KPI Validation](#kpi-validation)
-- [Recommendations](#recommendations)
-- [Future Enhancements](#future-enhancements)
-- [Project Structure](#project-structure)
+Key Insights
 
+Dashboard Preview
 
+Technical Skills
 
-⭐ **Project Overview**
+KPI Validation
+
+Recommendations
+
+Future Enhancements
+
+Machine Learning Model
+
+**Project Structure**
+
+⭐ Project Overview
 
 This project analyzes road accident data from 2021–2022 to uncover high-risk conditions, accident patterns, and contributing factors. The goal is to provide actionable insights for improving road safety and supporting data-driven decision-making by government authorities and transport planners.
 
 Using Python, SQL, and Power BI, this end-to-end analysis delivers validated KPIs, visual dashboards, and clear business recommendations.
 
-📁**Dataset Information**
+**📁Dataset Information**
 
 The original dataset contains thousands of accident records with details such as severity, casualties, vehicle type, road type, weather, light conditions, and location.
 
@@ -44,7 +43,7 @@ The complete dataset was used during analysis, EDA, SQL validation, and Power BI
 
 The sample uploaded here preserves the structure and key patterns of the original data.
 
-🎯 **Business Problem**
+**🎯 Business Problem**
 
 Road accidents cause significant loss of life and economic damage.
 Authorities need insights to:
@@ -61,7 +60,7 @@ Implement targeted safety measures
 
 This project provides those insights through an analytical and visual approach.
 
-📊 **Key Objectives**
+**📊 Key Objectives**
 
 Analyze total accidents and casualties (2021–2022)
 
@@ -75,7 +74,7 @@ Examine environmental factors (weather, lighting, road type)
 
 Build an interactive Power BI dashboard
 
-🧠 **Top Insights**
+**🧠 Top Insights**
 
 Two-wheelers contribute the highest casualty share — major vulnerable group.
 
@@ -87,7 +86,8 @@ Single carriageway roads account for the highest number of casualties.
 
 Noticeable seasonal spikes during monsoon and festive months.
 
-🛠️ **Tech Stack**
+**🛠️ Tech Stack**
+
 Languages & Tools
 
 Python (Pandas, NumPy, Matplotlib)
@@ -112,26 +112,14 @@ KPI design
 
 Dashboard creation
 
-Insight generation & storytelling
+**Insight generation & storytelling**
 
-## 📁 Project Structure
+🔄 Project Workflow
+Data Collection → Cleaning → EDA → Visualization → Insights → Dashboard → Recommendations
 
-
-
-├── 📄 Road_Accident_Analysis_Report.pdf
-├── 📊 PowerBI_Dashboard.pbix
-├── 📁 SQL_Validation_Queries.sql
-├── 📓 Jupyter_Notebook_EDA.ipynb
-└── README.md
-
-
-
-**Dashboard Preview**
-
+**📊 Dashboard Preview**
 <img width="1261" height="676" alt="Road Accident Anlysis screenshot" src="https://github.com/user-attachments/assets/1bcd9698-a0be-4eb5-9c8f-2163c7333122" />
-
-
-🧪 **KPI Validation (SQL)**
+🧪 KPI Validation (SQL)
 
 All KPIs displayed in Power BI — including total accidents, total casualties, severity splits, monthly trends, and percentages — were independently validated using SQL queries.
 
@@ -143,19 +131,7 @@ Consistent
 
 Reliable for decision-making
 
-🚀 🧪 **KPI Validation (SQL)**
-
-All KPIs displayed in Power BI — including total accidents, total casualties, severity splits, monthly trends, and percentages — were independently validated using SQL queries.
-
-This ensures that the dashboard metrics are:
-
-Accurate
-
-Consistent
-
-Reliable for decision-making
-
-🚀 **Business Impact**
+**🚀 Business Impact**
 
 This analysis helps authorities and policymakers:
 
@@ -171,31 +147,31 @@ Strengthen emergency response planning
 
 By identifying high-risk factors, this project contributes to reducing accidents and saving lives.
 
-🛣️ **Methodology Summary**
+**🛣️ Methodology Summary**
 
-Data Cleaning — handled missing values, fixed date/time formats, standardized categories.
+Data Cleaning — handled missing values, fixed date/time formats, standardized categories
 
-EDA (Python) — distributions, correlations, severity analysis, monthly trends.
+EDA (Python) — distributions, correlations, severity analysis, monthly trends
 
-SQL Validation — re-computed KPIs for accuracy.
+SQL Validation — re-computed KPIs for accuracy
 
-Dashboarding (Power BI) — built interactive visuals for deeper insight.
+Dashboarding (Power BI) — built interactive visuals for deeper insight
 
-Recommendations — actionable insights for safety improvement.
+Recommendations — actionable insights for safety improvement
 
-📌 **Recommendations**
+**📌 Recommendations**
 
-Strengthen enforcement and safety programs for two-wheeler riders.
+Strengthen enforcement and safety programs for two-wheeler riders
 
-Install better lighting and reflective road markings in night-high-risk areas.
+Install better lighting and reflective road markings in night-high-risk areas
 
-Improve emergency medical access in rural regions.
+Improve emergency medical access in rural regions
 
-Upgrade single carriageway roads to safer designs.
+Upgrade single carriageway roads to safer designs
 
-Implement seasonal awareness campaigns during peak accident months.
+Implement seasonal awareness campaigns during peak accident months
 
-🔮**Future Enhancements**
+**🔮 Future Enhancements**
 
 Predict accident hotspots using machine learning
 
@@ -205,11 +181,93 @@ Build real-time streaming dashboard
 
 Develop severity prediction models
 
----
+**🤖 Machine Learning Model (Accident Severity Prediction)**
 
-👩‍💼 **About the Author**
+A machine learning model was developed to predict accident severity (Fatal / Serious / Slight) using historical accident records.
+
+Model Details
+
+Algorithm: RandomForestClassifier
+
+Preprocessing:
+
+OneHotEncoding for categorical features
+
+StandardScaler for numerical features
+
+Missing value imputation
+
+Imbalance Handling: class_weight="balanced"
+
+Train/Test Split: 80/20
+
+Model Performance
+
+Accuracy: 0.8408799415536975
+
+Full classification report available at:
+visuals/classification_report.txt
+
+Top Predictive Features
+Feature	Importance
+Local_Authority_(District)	0.4897
+Day_of_Week	0.1064
+Vehicle_Type	0.0643
+Number_of_Vehicles	0.0501
+Number_of_Casualties	0.0435
+Speed_limit	0.0401
+Junction_Detail	0.0380
+Road_Surface_Conditions	0.0322
+Weather_Conditions	0.0308
+Light_Conditions	0.0299
+Model Artifacts (Saved in Repository)
+
+models/severity_model.pkl
+
+visuals/confusion_matrix.png
+
+visuals/feature_importances.png
+
+visuals/sample_predictions.csv
+
+visuals/top_features_by_column.csv
+
+This model adds predictive intelligence to the project and supports future enhancements like accident hotspot prediction and real-time risk estimation.
+
+📁 Project Structure
+├── 📄 Road_Accident_Analysis_Report.pdf
+├── 📊 PowerBI_Dashboard.pbix
+├── 📁 SQL_Validation_Queries.sql
+├── 📓 Jupyter_Notebook_EDA.ipynb
+├── 📁 models/
+├── 📁 visuals/
+└── README.md
+
+**🧩 How to Run This Project**
+
+1️⃣ Clone the repository
+
+git clone https://github.com/Likithasriram/Road_Accident_Analysis.git
+cd Road_Accident_Analysis
+
+
+2️⃣ Install dependencies
+
+pip install -r requirements.txt
+
+
+3️⃣ Open the notebook
+
+jupyter notebook
+
+
+4️⃣ Open the Power BI dashboard
+
+/dashboard/Road_Accident_Analysis.pbix
+
+**👩‍💼 About the Author**
 
 P. Likhitha
 Data Analyst | SQL | Python | Power BI
-Passionate about turning raw data into meaningful insights.
+Passionate about turning raw data into meaningful insights.ningful insights.
 
