@@ -1,5 +1,6 @@
 **🚗Road Accident Analysis (2021–2022)**
-Data Analytics Project
+
+**Data Analytics Project**
 
 Python • SQL • Power BI • Excel • EDA • Data Visualization
 
