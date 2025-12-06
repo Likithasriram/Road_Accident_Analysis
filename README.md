@@ -258,6 +258,8 @@ jupyter notebook
 ## 👩‍💼 About the Author
 
 P. Likhitha
+
 Data Analyst | SQL | Python | Power BI
+
 Passionate about turning raw data into meaningful insights.ningful insights.
 
