@@ -113,7 +113,8 @@ Data Collection → Cleaning → EDA → Visualization → Insights → Dashboar
 
 ## 📊 Dashboard Preview
 
-<img width="1261" alt="Road analysis screenshot" src="dashboard/Road_Accident_Dashboard.png" />
+<img src="dashboard/Road analysis screenshot.png" width="1000" alt="Road Accident Dashboard"/>
+
 
 ## 🧪 KPI Validation
 
