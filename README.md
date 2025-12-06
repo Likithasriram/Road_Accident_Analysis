@@ -252,7 +252,8 @@ jupyter notebook
 4️⃣ Open the Power BI dashboard
 
 /dashboard/Road_Accident_Analysis.pbix
----
+```
+
 
 ## 👩‍💼 About the Author
 
