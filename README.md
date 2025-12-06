@@ -234,27 +234,23 @@ A machine learning model was developed to predict accident severity (Fatal / Ser
 
 
 ## 🧩 How to Run This Project
-
- 1️⃣ Clone the repository
 ```bash
+ 1️⃣ Clone the repository
+
 git clone https://github.com/Likithasriram/Road_Accident_Analysis.git
 cd Road_Accident_Analysis
-
 
 2️⃣ Install dependencies
 
 pip install -r requirements.txt
 
-
 3️⃣ Open the notebook
 
 jupyter notebook
 
-
 4️⃣ Open the Power BI dashboard
 
 /dashboard/Road_Accident_Analysis.pbix
----
 ---
 
 ## 👩‍💼 About the Author
