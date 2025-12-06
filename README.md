@@ -218,6 +218,7 @@ A machine learning model was developed to predict accident severity (Fatal / Ser
 
 
 ## 📁 Project Structure
+```
 
 ├── 📄 Road_Accident_Analysis_Report.pdf
 ├── 📊 PowerBI_Dashboard.pbix
@@ -226,7 +227,7 @@ A machine learning model was developed to predict accident severity (Fatal / Ser
 ├── 📁 models/
 ├── 📁 visuals/
 └── README.md
-
+```
 
 ---
 
