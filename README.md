@@ -1,4 +1,4 @@
-**🚗Road Accident Analysis (2021–2022)**
+ **🚗Road Accident Analysis (2021–2022)**
 
 **Data Analytics Project**
 
@@ -6,29 +6,29 @@ Python • SQL • Power BI • Excel • EDA • Data Visualization
 
 <p align="left"> <img src="https://img.shields.io/badge/Python-3.10-blue" /> <img src="https://img.shields.io/badge/SQL-Queries-red" /> <img src="https://img.shields.io/badge/PowerBI-Dashboard-brightgreen" /> <img src="https://img.shields.io/badge/Excel-Data%20Cleaning-lightgrey" /> <img src="https://img.shields.io/badge/Pandas-EDA-green" /> <img src="https://img.shields.io/badge/Matplotlib-Visualization-yellow" /> </p>
 
-**📑 Table of Contents**
+## 📑 Table of Contents
+- [Project Overview](#project-overview)
+- [Dataset Information](#dataset-information)
+- [Business Problem](#business-problem)
+- [Key Objectives](#key-objectives)
+- [Top Insights](#top-insights)
+- [Tech Stack](#tech-stack)
+- [Dashboard Preview](#dashboard-preview)
+- [KPI Validation](#kpi-validation)
+- [Business Impact](#business-impact)
+- [Methodology Summary](#methodology-summary)
+- [Recommendations](#recommendations)
+- [Future Enhancements](#future-enhancements)
+- [Machine Learning Model](#machine-learning-model)
+- [Project Structure](#project-structure)
+- [How to Run This Project](#how-to-run-this-project)
+- [About the Author](#about-the-author)
 
-Project Overview
-
-Business Problem
-
-Key Insights
-
-Dashboard Preview
-
-Technical Skills
-
-KPI Validation
-
-Recommendations
-
-Future Enhancements
-
-Machine Learning Model
 
 **Project Structure**
 
-⭐ Project Overview
+## ⭐ Project Overview
+
 
 This project analyzes road accident data from 2021–2022 to uncover high-risk conditions, accident patterns, and contributing factors. The goal is to provide actionable insights for improving road safety and supporting data-driven decision-making by government authorities and transport planners.
 
@@ -44,7 +44,7 @@ The complete dataset was used during analysis, EDA, SQL validation, and Power BI
 
 The sample uploaded here preserves the structure and key patterns of the original data.
 
-**🎯 Business Problem**
+## 🎯 Business Problem
 
 Road accidents cause significant loss of life and economic damage.
 Authorities need insights to:
@@ -61,7 +61,7 @@ Implement targeted safety measures
 
 This project provides those insights through an analytical and visual approach.
 
-**📊 Key Objectives**
+## 📊 Key Objectives
 
 Analyze total accidents and casualties (2021–2022)
 
@@ -75,7 +75,7 @@ Examine environmental factors (weather, lighting, road type)
 
 Build an interactive Power BI dashboard
 
-**🧠 Top Insights**
+## 🧠 Top Insights
 
 Two-wheelers contribute the highest casualty share — major vulnerable group.
 
@@ -87,40 +87,35 @@ Single carriageway roads account for the highest number of casualties.
 
 Noticeable seasonal spikes during monsoon and festive months.
 
-**🛠️ Tech Stack**
+## 🛠️ Tech Stack
 
-Languages & Tools
+### Languages & Tools
+- Python (Pandas, NumPy, Matplotlib)
+- SQL Server
+- Power BI
+- Excel
+- Google Colab
 
-Python (Pandas, NumPy, Matplotlib)
+### Core Skills Demonstrated
+- Data Cleaning & Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- SQL-Based KPI Validation  
+- KPI & Metric Design  
+- Dashboard Development  
+- Insight Generation & Storytelling  
 
-SQL Server
-
-Power BI
-
-Excel
-
-Google Colab
-
-Core Skills Demonstrated
-
-Data cleaning & preprocessing
-
-Exploratory Data Analysis (EDA)
-
-Data validation using SQL
-
-KPI design
-
-Dashboard creation
 
 **Insight generation & storytelling**
 
-🔄 Project Workflow
+## 🔄 Project Workflow
+
 Data Collection → Cleaning → EDA → Visualization → Insights → Dashboard → Recommendations
 
-**📊 Dashboard Preview**
+## 📊 Dashboard Preview
+
 <img width="1261" height="676" alt="Road Accident Anlysis screenshot" src="https://github.com/user-attachments/assets/1bcd9698-a0be-4eb5-9c8f-2163c7333122" />
-🧪 KPI Validation (SQL)
+
+## 🧪 KPI Validation
 
 All KPIs displayed in Power BI — including total accidents, total casualties, severity splits, monthly trends, and percentages — were independently validated using SQL queries.
 
@@ -132,7 +127,7 @@ Consistent
 
 Reliable for decision-making
 
-**🚀 Business Impact**
+## 🚀 Business Impact
 
 This analysis helps authorities and policymakers:
 
@@ -148,7 +143,7 @@ Strengthen emergency response planning
 
 By identifying high-risk factors, this project contributes to reducing accidents and saving lives.
 
-**🛣️ Methodology Summary**
+## 🛣️ Methodology Summary
 
 Data Cleaning — handled missing values, fixed date/time formats, standardized categories
 
@@ -160,7 +155,7 @@ Dashboarding (Power BI) — built interactive visuals for deeper insight
 
 Recommendations — actionable insights for safety improvement
 
-**📌 Recommendations**
+## 📌 Recommendations
 
 Strengthen enforcement and safety programs for two-wheeler riders
 
@@ -172,7 +167,7 @@ Upgrade single carriageway roads to safer designs
 
 Implement seasonal awareness campaigns during peak accident months
 
-**🔮 Future Enhancements**
+## 🔮 Future Enhancements
 
 Predict accident hotspots using machine learning
 
@@ -182,60 +177,46 @@ Build real-time streaming dashboard
 
 Develop severity prediction models
 
-**🤖 Machine Learning Model (Accident Severity Prediction)**
+## 🤖 Machine Learning Model (Accident Severity Prediction)
 
-A machine learning model was developed to predict accident severity (Fatal / Serious / Slight) using historical accident records.
+A machine learning model was developed to predict accident severity (Fatal / Serious / Slight).
 
-Model Details
+### 🔧 Model Details
+- **Algorithm:** RandomForestClassifier  
+- **Preprocessing:**  
+  - OneHotEncoding (categorical features)  
+  - StandardScaler (numerical features)  
+  - Missing value imputation  
+- **Imbalance Handling:** `class_weight="balanced"`  
+- **Train/Test Split:** 80/20  
 
-Algorithm: RandomForestClassifier
+### 📈 Model Performance
+- **Accuracy:** 84.08%  
+- Full classification report available at → `visuals/classification_report.txt`
 
-Preprocessing:
+### 🔝 Top Predictive Features
+| Feature | Importance |
+|--------|------------|
+| Local_Authority_(District) | 0.4897 |
+| Day_of_Week | 0.1064 |
+| Vehicle_Type | 0.0643 |
+| Number_of_Vehicles | 0.0501 |
+| Number_of_Casualties | 0.0435 |
+| Speed_limit | 0.0401 |
+| Junction_Detail | 0.0380 |
+| Road_Surface_Conditions | 0.0322 |
+| Weather_Conditions | 0.0308 |
+| Light_Conditions | 0.0299 |
 
-OneHotEncoding for categorical features
+### 📦 Model Artifacts (Saved)
+- `models/severity_model.pkl`
+- `visuals/confusion_matrix.png`
+- `visuals/feature_importances.png`
+- `visuals/sample_predictions.csv`
 
-StandardScaler for numerical features
 
-Missing value imputation
+## 📁 Project Structure
 
-Imbalance Handling: class_weight="balanced"
-
-Train/Test Split: 80/20
-
-Model Performance
-
-Accuracy: 0.8408799415536975
-
-Full classification report available at:
-visuals/classification_report.txt
-
-Top Predictive Features
-Feature	Importance
-Local_Authority_(District)	0.4897
-Day_of_Week	0.1064
-Vehicle_Type	0.0643
-Number_of_Vehicles	0.0501
-Number_of_Casualties	0.0435
-Speed_limit	0.0401
-Junction_Detail	0.0380
-Road_Surface_Conditions	0.0322
-Weather_Conditions	0.0308
-Light_Conditions	0.0299
-Model Artifacts (Saved in Repository)
-
-models/severity_model.pkl
-
-visuals/confusion_matrix.png
-
-visuals/feature_importances.png
-
-visuals/sample_predictions.csv
-
-visuals/top_features_by_column.csv
-
-This model adds predictive intelligence to the project and supports future enhancements like accident hotspot prediction and real-time risk estimation.
-
-📁 Project Structure
 ├── 📄 Road_Accident_Analysis_Report.pdf
 ├── 📊 PowerBI_Dashboard.pbix
 ├── 📁 SQL_Validation_Queries.sql
@@ -244,10 +225,16 @@ This model adds predictive intelligence to the project and supports future enhan
 ├── 📁 visuals/
 └── README.md
 
-**🧩 How to Run This Project**
 
-1️⃣ Clone the repository
+---
 
+# 🔧 **6️⃣ FIX How to Run Section*
+
+
+## 🧩 How to Run This Project
+
+ 1️⃣ Clone the repository
+```bash
 git clone https://github.com/Likithasriram/Road_Accident_Analysis.git
 cd Road_Accident_Analysis
 
@@ -266,7 +253,7 @@ jupyter notebook
 
 /dashboard/Road_Accident_Analysis.pbix
 
-**👩‍💼 About the Author**
+## 👩‍💼 About the Author
 
 P. Likhitha
 Data Analyst | SQL | Python | Power BI
