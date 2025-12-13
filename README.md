@@ -135,19 +135,13 @@ This ensures that the dashboard metrics are:
 
 ## 🚀 Business Impact
 
-This analysis helps authorities and policymakers:
+## 🔮 Future Enhancements
 
-Target road safety interventions more effectively
+- Extend severity prediction using advanced models such as XGBoost.
+- Identify accident hotspots through geospatial analysis and GIS-based heatmaps.
+- Integrate real-time accident data for live dashboard monitoring.
+- Deploy the severity prediction model as a decision-support tool.
 
-Prioritize infrastructure upgrades
-
-Improve night-time visibility and lighting
-
-Design campaigns for high-risk vehicle groups
-
-Strengthen emergency response planning
-
-By identifying high-risk factors, this project contributes to reducing accidents and saving lives.
 
 ## 🛣️ Methodology Summary
 
