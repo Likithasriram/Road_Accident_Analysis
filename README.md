@@ -77,15 +77,26 @@ Build an interactive Power BI dashboard
 
 ## 🧠 Top Insights
 
-Two-wheelers contribute the highest casualty share — major vulnerable group.
+- Two-wheelers account for the highest casualty share, indicating a major vulnerable road user group.
+- Night-time accidents show statistically higher severity compared to daytime accidents.
+- Urban areas report higher accident counts, while rural areas experience greater accident severity.
+- Single carriageway roads contribute the highest overall severity risk.
+- Clear seasonal patterns are observed, with peaks during specific months.
 
-Night-time accidents have a significantly higher fatality rate than daytime accidents.
 
-Urban areas report more accidents, but rural areas show higher severity.
+## 📈 Advanced Analytics
 
-Single carriageway roads account for the highest number of casualties.
+This project was extended beyond descriptive analysis to include diagnostic and predictive analytics:
 
-Noticeable seasonal spikes during monsoon and festive months.
+- **Severity Score Engineering** to quantify accident impact
+- **Statistical Hypothesis Testing (Mann–Whitney U Test)** to validate:
+  - Day vs Night accident severity
+  - Urban vs Rural accident severity
+- **Trend Analysis** using moving averages and seasonality
+- **District-level risk profiling** to identify high-risk regions
+
+These analyses ensured insights were statistically validated and not assumption-based.
+
 
 ## 🛠️ Tech Stack
 
@@ -196,7 +207,15 @@ A machine learning model was developed to predict accident severity (Fatal / Ser
 - **Accuracy:** 84.08%  
 - Full classification report available at → `visuals/classification_report.txt`
 
+> Note: Accuracy alone is not sufficient due to class imbalance.  
+> Model evaluation focused on **recall and F1-score** for severe accident classes to better reflect real-world safety risks.
+
+
 ### 🔝 Top Predictive Features
+
+Feature importance analysis helps explain *why* accidents become severe.  
+Higher values indicate factors that contribute more strongly to accident severity, enabling policymakers to prioritize infrastructure, enforcement, and safety interventions.
+
 | Feature | Importance |
 |--------|------------|
 | Local_Authority_(District) | 0.4897 |
@@ -209,6 +228,7 @@ A machine learning model was developed to predict accident severity (Fatal / Ser
 | Road_Surface_Conditions | 0.0322 |
 | Weather_Conditions | 0.0308 |
 | Light_Conditions | 0.0299 |
+
 
 ### 📦 Model Artifacts (Saved)
 - `models/severity_model.pkl`
