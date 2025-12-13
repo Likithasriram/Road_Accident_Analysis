@@ -1,4 +1,4 @@
- **🚗Road Accident Analysis (2021–2022)**
+# 🚗 Road Accident Analysis (2021–2022)
 
 **Data Analytics Project**
 
@@ -25,8 +25,6 @@ Python • SQL • Power BI • Excel • EDA • Data Visualization
 - [About the Author](#about-the-author)
 
 
-**Project Structure**
-
 ## ⭐ Project Overview
 
 
@@ -34,7 +32,7 @@ This project analyzes road accident data from 2021–2022 to uncover high-risk c
 
 Using Python, SQL, and Power BI, this end-to-end analysis delivers validated KPIs, visual dashboards, and clear business recommendations.
 
-**📁Dataset Information**
+## 📁 Dataset Information
 
 The original dataset contains thousands of accident records with details such as severity, casualties, vehicle type, road type, weather, light conditions, and location.
 
@@ -115,9 +113,6 @@ These analyses ensured insights were statistically validated and not assumption-
 - Dashboard Development  
 - Insight Generation & Storytelling  
 
-
-**Insight generation & storytelling**
-
 ## 🔄 Project Workflow
 
 Data Collection → Cleaning → EDA → Visualization → Insights → Dashboard → Recommendations
@@ -133,12 +128,10 @@ Data Collection → Cleaning → EDA → Visualization → Insights → Dashboar
 All KPIs displayed in Power BI — including total accidents, total casualties, severity splits, monthly trends, and percentages — were independently validated using SQL queries.
 
 This ensures that the dashboard metrics are:
+- Accurate
+- Consistent
+- Reliable for decision-making
 
-Accurate
-
-Consistent
-
-Reliable for decision-making
 
 ## 🚀 Business Impact
 
@@ -204,11 +197,11 @@ A machine learning model was developed to predict accident severity (Fatal / Ser
 - **Train/Test Split:** 80/20  
 
 ### 📈 Model Performance
-- **Accuracy:** 84.08%  
-- Full classification report available at → `visuals/classification_report.txt`
+- **Accuracy:** 84.08%
 
-> Note: Accuracy alone is not sufficient due to class imbalance.  
-> Model evaluation focused on **recall and F1-score** for severe accident classes to better reflect real-world safety risks.
+-Full classification report available at → `visuals/classification_report.txt`
+- **Accuracy:** Model accuracy varies due to class imbalance  
+- Evaluation focused on **recall and F1-score** for Serious and Fatal accidents
 
 
 ### 🔝 Top Predictive Features
@@ -251,8 +244,6 @@ Higher values indicate factors that contribute more strongly to accident severit
 
 ---
 
-# 🔧 **6️⃣ FIX How to Run Section*
-
 
 ## 🧩 How to Run This Project
 ```bash
@@ -281,5 +272,6 @@ P. Likhitha
 
 Data Analyst | SQL | Python | Power BI
 
-Passionate about turning raw data into meaningful insights.ningful insights.
+Passionate about turning raw data into actionable insights through analytics, visualization, and machine learning.
+
 
