@@ -34,44 +34,40 @@ Using Python, SQL, and Power BI, this end-to-end analysis delivers validated KPI
 
 ## 📁 Dataset Information
 
-The original dataset contains thousands of accident records with details such as severity, casualties, vehicle type, road type, weather, light conditions, and location.
+The dataset contains detailed road accident records from 2021–2022, including:
+- Accident severity and casualties
+- Vehicle type and number of vehicles involved
+- Road type, speed limit, and surface conditions
+- Weather, lighting conditions, and location attributes
 
-Due to GitHub file size limitations, this repository includes a 900-row sample of the full dataset for demonstration purposes.
+Due to GitHub file size limitations, a representative sample is included in this repository.  
+The full dataset was used for exploratory analysis, SQL validation, statistical testing, machine learning modeling, and Power BI dashboard development.
 
-The complete dataset was used during analysis, EDA, SQL validation, and Power BI dashboard creation.
-
-The sample uploaded here preserves the structure and key patterns of the original data.
 
 ## 🎯 Business Problem
 
-Road accidents cause significant loss of life and economic damage.
-Authorities need insights to:
+Road accidents result in significant loss of life and economic impact.  
+Beyond understanding accident frequency, authorities need to identify **which conditions lead to more severe outcomes**.
 
-Reduce accident frequency
+Key questions addressed in this project:
+- Under what conditions do accidents become more severe?
+- Are night-time and rural accidents riskier than others?
+- Which road, vehicle, and environmental factors contribute most to severity?
+- How can data-driven insights support better safety planning and resource allocation?
 
-Identify high-risk districts and vehicle types
+This project addresses these questions using analytics, statistics, and machine learning.
 
-Improve road infrastructure and lighting
-
-Allocate resources efficiently
-
-Implement targeted safety measures
-
-This project provides those insights through an analytical and visual approach.
 
 ## 📊 Key Objectives
 
-Analyze total accidents and casualties (2021–2022)
+- Analyze accident and casualty trends for 2021–2022.
+- Identify high-risk conditions based on time, location, road, and environmental factors.
+- Validate key performance indicators (KPIs) using SQL.
+- Quantify accident severity using a custom severity score.
+- Perform statistical testing to compare severity across different conditions.
+- Build a machine learning model to predict accident severity.
+- Present insights through an interactive Power BI dashboard.
 
-Validate all KPIs using SQL
-
-Identify high-risk roads, vehicle categories, and time periods
-
-Compare month-wise casualty trends
-
-Examine environmental factors (weather, lighting, road type)
-
-Build an interactive Power BI dashboard
 
 ## 🧠 Top Insights
 
