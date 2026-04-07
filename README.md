@@ -80,7 +80,7 @@ This project addresses these questions using analytics, statistics, and machine 
 
 ## 📈 Advanced Analytics
 
-This project was extended beyond descriptive analysis to include diagnostic and predictive analytics:
+This project was extended beyond descriptive analysis to include diagnostic and advanced analytical techniques:
 
 - **Severity Score Engineering** to quantify accident impact
 - **Statistical Hypothesis Testing (Mann–Whitney U Test)** to validate:
@@ -89,7 +89,25 @@ This project was extended beyond descriptive analysis to include diagnostic and 
 - **Trend Analysis** using moving averages and seasonality
 - **District-level risk profiling** to identify high-risk regions
 
-These analyses ensured insights were statistically validated and not assumption-based.
+  ### 🔻 Severity Funnel Analysis
+
+A funnel-based approach was used to understand how accidents escalate across severity levels.
+
+#### Key Findings:
+- ~85% of accidents are slight in severity  
+- ~13% escalate to serious conditions  
+- ~1.3% result in fatal outcomes  
+
+#### Funnel Insight:
+- Approximately 13% of total accidents become serious  
+- Nearly 9% of serious accidents further escalate into fatalities  
+
+#### Business Interpretation:
+Although fatal accidents are relatively rare overall, the conversion from serious to fatal is significant. This highlights the need to focus on preventing escalation through improved road safety measures, faster emergency response, and targeted interventions in high-risk scenarios.
+
+- **District-level risk profiling** to identify high-risk regions
+
+This approach helps shift focus from accident frequency to severity escalation risk.
 
 
 ## 🛠️ Tech Stack
@@ -127,17 +145,6 @@ This ensures that the dashboard metrics are:
 - Accurate
 - Consistent
 - Reliable for decision-making
-
-
-## 🚀 Business Impact
-
-## 🔮 Future Enhancements
-
-- Extend severity prediction using advanced models such as XGBoost.
-- Identify accident hotspots through geospatial analysis and GIS-based heatmaps.
-- Integrate real-time accident data for live dashboard monitoring.
-- Deploy the severity prediction model as a decision-support tool.
-
 
 ## 🛣️ Methodology Summary
 
